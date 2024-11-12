@@ -1,7 +1,7 @@
 import Image from "next/image";
-import FeaturesImage01 from "@/public/images/features-home-3-01.jpg";
-import FeaturesImage02 from "@/public/images/features-home-3-02.jpg";
-import FeaturesImage03 from "@/public/images/features-home-3-03.jpg";
+import FeaturesImage01 from "./shopping.svg";
+import FeaturesImage02 from "./online_groceries_a02y.svg";
+import FeaturesImage03 from "./personalization.svg";
 
 export default function NumberTabs() {
   return (

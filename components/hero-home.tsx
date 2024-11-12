@@ -31,7 +31,7 @@ export default function HeroHome() {
                 <div>
                   <Link
                     className="btn rounded-md text-white bg-blue-600 hover:bg-blue-700 w-full group"
-                    href="https://lumniverse-frontend.vercel.app"
+                    href="https://app.lumniverse.com"
                   >
                     Start your services
                     <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
@@ -42,7 +42,7 @@ export default function HeroHome() {
                 <div>
                   <Link
                     className="btn rounded-md text-white bg-slate-700 hover:bg-slate-800 w-full"
-                    href="https://lumniverse-frontend.vercel.app/multi-step"
+                    href="https://app.lumniverse.com/multi-step"
                   >
                     Try Simulator
                   </Link>

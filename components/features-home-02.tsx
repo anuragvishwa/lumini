@@ -4,6 +4,8 @@ import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesImage from "./chatbot.png";
+import voiceAssist from "../app/(default)/voice-assistant.svg";
+import support from "../app/(default)/support.svg";
 
 export default function FeaturesHome02() {
   const [tab, setTab] = useState<number>(1);
@@ -81,7 +83,7 @@ export default function FeaturesHome02() {
                       </div>
                       <Image
                         className="rounded relative inline-flex flex-col"
-                        src={FeaturesImage}
+                        src={voiceAssist}
                         width={360}
                         height={300}
                         alt="Features home 2 02"
@@ -112,7 +114,7 @@ export default function FeaturesHome02() {
                       </div>
                       <Image
                         className="rounded relative inline-flex flex-col"
-                        src={FeaturesImage}
+                        src={support}
                         width={360}
                         height={300}
                         alt="Features home 2 02"

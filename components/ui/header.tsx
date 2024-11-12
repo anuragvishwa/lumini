@@ -21,7 +21,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="https://lumniverse-frontend.vercel.app/multi-step"
+                  href="https://app.lumniverse.com/multi-step"
                   className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Try Simulator
@@ -29,7 +29,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
               </li>
               <li>
                 <Link
-                  href="https://lumniverse-frontend.vercel.app"
+                  href="https://app.lumniverse.com"
                   className="font-medium text-blue-600 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group"
                 >
                   Start your services
