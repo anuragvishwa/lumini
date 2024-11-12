@@ -10,11 +10,11 @@ export default function FeaturesHome02() {
 
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl font-roboto mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-slate-200">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">
+            <h2 className="h2 font-roboto text-slate-700">
               Introducing your 24/7
             </h2>
           </div>
@@ -29,7 +29,7 @@ export default function FeaturesHome02() {
                     <div className="w-full text-left transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
                       <div className="relative inline-flex flex-col">
                         <div className="mb-8 text-center md:text-left">
-                          <h3 className="h3 text-slate-800 font-playfair-display mb-3">
+                          <h3 className="h3 text-slate-700 font-roboto mb-3">
                             Behavioral AI Magic
                           </h3>
                           <p className="my-4">
@@ -60,7 +60,7 @@ export default function FeaturesHome02() {
                   <Transition show={tab === 2}>
                     <div className="w-full text-left transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
                       <div className="mb-8 text-center md:text-left">
-                        <h3 className="h3 text-slate-800 font-playfair-display mb-3">
+                        <h3 className="h3 text-slate-700 font-roboto mb-3">
                           Your own branded AI Concierge
                         </h3>
                         <p className="my-4">
@@ -92,7 +92,7 @@ export default function FeaturesHome02() {
                   <Transition show={tab === 3}>
                     <div className="w-full text-left transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
                       <div className="mb-8 text-center md:text-left">
-                        <h3 className="h3 text-slate-800 font-playfair-display mb-3">
+                        <h3 className="h3 text-slate-700 font-roboto mb-3">
                           Unlock AI-Generated Sales
                         </h3>
                         <p className="my-4">

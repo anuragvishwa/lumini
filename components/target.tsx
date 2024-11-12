@@ -28,7 +28,7 @@ export default function Target() {
               data-aos="fade-right"
             >
               <div className="max-w-4xl mx-auto text-left pb-6">
-                <h2 className="h2 text-slate-80">
+                <h2 className="h2 font-roboto">
                   All personal data is protected and secure
                 </h2>
                 <p className="mt-4 text-slate-500">

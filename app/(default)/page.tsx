@@ -12,6 +12,8 @@ import Target from "@/components/target";
 import PricingSection from "@/components/pricing";
 import Cta from "@/components/cta";
 import Gain from "./gain";
+import Tabs from "./tabs";
+import NumberTabs from "./numberTabs";
 
 export default function Home() {
   return (
@@ -19,9 +21,14 @@ export default function Home() {
       <Hero />
       <Features02 />
       <FeaturesBlocks />
+      <NumberTabs />
+      <Tabs />
+
       <Features />
       <Features03 />
+
       <Target />
+
       <PricingSection />
       <Gain />
     </>

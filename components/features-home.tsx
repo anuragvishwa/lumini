@@ -10,7 +10,7 @@ export default function FeaturesHome() {
   const [tab, setTab] = useState<number>(1);
 
   return (
-    <section className="relative">
+    <section className="relative font-roboto">
       <div
         className="absolute inset-0 bg-slate-100 pointer-events-none mb-64 md:mb-80"
         aria-hidden="true"
@@ -20,7 +20,7 @@ export default function FeaturesHome() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-800 mb-4">
+            <h2 className="h2 font-roboto text-slate-700 mb-4">
               Test drive Lumniverse in a safe demo environment
             </h2>
             <p className="text-xl text-slate-768">
@@ -61,7 +61,7 @@ export default function FeaturesHome() {
             </button>
           </div>
 
-          <Image src={laptop} alt="laptop" />
+          <Image src={laptop} alt="laptop" className="rounded-md" />
         </div>
       </div>
     </section>

@@ -4,10 +4,10 @@ import lumniverse from "./Colorful Mascot Illustrative Online Shop Logo.png";
 export default function FeaturesBlocks() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl font-roboto mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">
+            <h2 className="h2 font-roboto text-slate-700">
               Connect with your fave Shopify apps
             </h2>
             <p className="my-4">
@@ -125,9 +125,7 @@ export default function FeaturesBlocks() {
                 <use fill="#000" filter="url(#fb1-d)" xlinkHref="#fb1-e" />
                 <use fillOpacity=".64" fill="#E2EEFF" xlinkHref="#fb1-e" />
               </svg>
-              <h3 className="h4 font-playfair-display mb-2">
-                Seamless Workflow
-              </h3>
+              <h3 className="h4 font-roboto mb-2">Seamless Workflow</h3>
               <p className="text-lg text-slate-500">
                 Requires zero changes to your support stack — Rep adapts to your
                 tools and workflow.
@@ -239,9 +237,7 @@ export default function FeaturesBlocks() {
                   fill="#5091EE"
                 />
               </svg>
-              <h3 className="h4 font-playfair-display mb-2">
-                AI-Powered Tickets
-              </h3>
+              <h3 className="h4 font-roboto mb-2">AI-Powered Tickets</h3>
               <p className="text-lg text-slate-500">
                 Handle 99% of all tickets with your live chat solution plus AI.
                 Why leave anything to chance?
@@ -344,7 +340,7 @@ export default function FeaturesBlocks() {
                 <use fill="#000" filter="url(#fb3-c)" xlinkHref="#fb3-d" />
                 <use fill="url(#fb3-e)" xlinkHref="#fb3-d" />
               </svg>
-              <h3 className="h4 font-playfair-display mb-2">Automated Tools</h3>
+              <h3 className="h4 font-roboto mb-2">Automated Tools</h3>
               <p className="text-lg text-slate-500">
                 Capture emails and phone numbers on autopilot with your favorite
                 marketing platform.
@@ -447,7 +443,7 @@ export default function FeaturesBlocks() {
                 <use fill="#000" filter="url(#fb4-d)" xlinkHref="#fb4-e" />
                 <use fillOpacity=".64" fill="#E2EEFF" xlinkHref="#fb4-e" />
               </svg>
-              <h3 className="h4 font-playfair-display mb-2">
+              <h3 className="h4 font-roboto mb-2">
                 Seamless App Integration – Just Ask!
               </h3>
               <p className="text-lg text-slate-500">

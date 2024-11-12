@@ -17,10 +17,10 @@ export default function HeroHome() {
           <div className="max-w-xl mx-auto md:max-w-none md:flex md:items-center md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-16 md:space-y-0">
             {/* Content */}
             <div
-              className="text-center md:text-left md:min-w-[30rem]"
+              className="text-center font-roboto md:text-left md:min-w-[30rem]"
               data-aos="fade-right"
             >
-              <h1 className="h1 font-playfair-display text-slate-100 mb-4">
+              <h1 className="h1 font-roboto text-slate-100 mb-4">
                 AI Chat for Sales and Support
               </h1>
               <p className="text-xl text-slate-400 mb-8">
@@ -31,9 +31,9 @@ export default function HeroHome() {
                 <div>
                   <Link
                     className="btn rounded-md text-white bg-blue-600 hover:bg-blue-700 w-full group"
-                    href="/request-demo"
+                    href="https://lumniverse-frontend.vercel.app"
                   >
-                    Start your 30-day free trial
+                    Start your services
                     <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       -&gt;
                     </span>
@@ -42,9 +42,9 @@ export default function HeroHome() {
                 <div>
                   <Link
                     className="btn rounded-md text-white bg-slate-700 hover:bg-slate-800 w-full"
-                    href="#0"
+                    href="https://lumniverse-frontend.vercel.app/multi-step"
                   >
-                    Talk to sales
+                    Try Simulator
                   </Link>
                 </div>
               </div>

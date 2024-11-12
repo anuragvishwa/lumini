@@ -18,7 +18,7 @@ export default function FeaturesHome03() {
           <div className="max-w-xl mx-auto md:max-w-none md:flex md:items-center md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-16 md:space-y-0">
             {/* Content */}
             <div className="max-w-4xl mx-auto text-left pb-12 md:pb-20">
-              <h2 className="h2 font-playfair-display text-slate-100">
+              <h2 className="h2 font-roboto text-slate-100">
                 Introducing AI-Generated Sales — your new KPI
               </h2>
               <p className="mt-4 text-gray-400 font-semibold">
@@ -31,6 +31,7 @@ export default function FeaturesHome03() {
             <Image
               src={FeaturesImage01}
               alt="FeaturesImage01"
+              className="rounded-md"
               width={500}
               height={500}
             />
