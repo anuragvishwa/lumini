@@ -77,9 +77,7 @@ export default function FeaturesHome02() {
                         <p className="text-sm text-slate-500">
                           Speaks your unique brand voice & personality
                         </p>{" "}
-                        <p className="text-sm text-slate-500">
-                          ? Multilingual — ¿Hablas Español
-                        </p>
+                        <p className="text-sm text-slate-500">Multilingual</p>
                       </div>
                       <Image
                         className="rounded relative inline-flex flex-col"
@@ -211,9 +209,9 @@ export default function FeaturesHome02() {
                       Sell while you sleep (or play, or work, or whatever)
                     </div>
                     <div className="text-slate-500">
-                      Rep navigates to product pages & checkout—right in-chat.
-                      Collect email subscribers and build your list with your
-                      fave Shopify apps.
+                      Lumniverse navigates to product pages & checkout—right
+                      in-chat. Collect email subscribers and build your list
+                      with your fave Shopify apps.
                     </div>
                   </div>
                 </button>
