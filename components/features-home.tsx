@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import FeaturesImage from "@/public/images/features-home-01.jpg";
-import laptop from "./laptop.png";
+import laptop from "../public/images/laptop.svg";
 
 export default function FeaturesHome() {
   const [tab, setTab] = useState<number>(1);
@@ -61,7 +61,9 @@ export default function FeaturesHome() {
             </button>
           </div>
 
-          <Image src={laptop} alt="laptop" className="rounded-md" />
+          <div className="flex justify-center">
+            <Image src={laptop} alt="laptop" className="rounded-md" />
+          </div>
         </div>
       </div>
     </section>

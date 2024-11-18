@@ -22,7 +22,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
               <li>
                 <Link
                   href="https://app.lumniverse.com/multi-step"
-                  className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Try Simulator
                 </Link>
@@ -30,10 +30,10 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
               <li>
                 <Link
                   href="https://app.lumniverse.com"
-                  className="font-medium text-blue-600 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group"
+                  className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group"
                 >
                   Start your services
-                  <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                  <span className="tracking-normal white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
                 </Link>

@@ -20,10 +20,10 @@ export default function Home() {
     <>
       <Hero />
       <Features02 />
-      <FeaturesBlocks />
+
       <NumberTabs />
       <Tabs />
-
+      <FeaturesBlocks />
       <Features />
       <Features03 />
 
