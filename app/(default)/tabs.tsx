@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
-import FeaturesImage from "./AI-Train.png";
+import FeaturesImage from "@/public/images/testNTrainEdit.png";
 import FAQ from "./FAQ.png";
 import File from "./File Sources.png";
 import URL from "./URL Sources.png";
@@ -168,7 +168,7 @@ export default function Tabs() {
               <div className="relative flex flex-col" data-aos="fade-up">
                 {/* Item 1 */}
                 <Transition show={tab === 1}>
-                  <div className="w-full transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
+                  <div className="w-full rounded-md border-8 border-purple-600 p-4 transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
                     <Image
                       className="mx-auto shadow-2xl"
                       src={FeaturesImage}
@@ -180,7 +180,7 @@ export default function Tabs() {
                 </Transition>
                 {/* Item 2 */}
                 <Transition show={tab === 2}>
-                  <div className="w-full transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
+                  <div className="w-full rounded-md border-8 border-purple-600 p-4 transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
                     <Image
                       className="mx-auto shadow-2xl"
                       src={FAQ}
@@ -192,7 +192,7 @@ export default function Tabs() {
                 </Transition>
                 {/* Item 3 */}
                 <Transition show={tab === 3}>
-                  <div className="w-full transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
+                  <div className="w-full rounded-md border-8 border-purple-600 p-4 transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
                     <Image
                       className="mx-auto shadow-2xl"
                       src={File}
@@ -204,7 +204,7 @@ export default function Tabs() {
                 </Transition>
                 {/* Item 4 */}
                 <Transition show={tab === 4}>
-                  <div className="w-full transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
+                  <div className="w-full rounded-md border-8 border-purple-600 p-4 transition ease-in-out data-[closed]:opacity-0 data-[enter]:duration-700 data-[enter]:data-[closed]:-translate-y-16 data-[closed]:absolute data-[leave]:duration-300 data-[leave]:data-[closed]:translate-y-16">
                     <Image
                       className="mx-auto shadow-2xl"
                       src={URL}

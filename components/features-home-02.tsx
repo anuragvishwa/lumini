@@ -3,12 +3,15 @@
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import FeaturesImage from "./chatbot.png";
-import voiceAssist from "../app/(default)/voice-assistant.svg";
+import FeaturesImage from "@/public/images/undraw_messages_re_qy9x.svg";
+import voiceAssist from "@/public/images/undraw_chatting_re_j55r (1).svg";
 import support from "../app/(default)/support.svg";
+import ModalVideo01 from "./modal-video-01";
+import VideoThumb from "@/public/images/hero-image-01.jpg";
 
 export default function FeaturesHome02() {
   const [tab, setTab] = useState<number>(1);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   return (
     <section>
@@ -21,7 +24,7 @@ export default function FeaturesHome02() {
             </h2>
           </div>
           {/* Section content */}
-          <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-start md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+          <div className="max-w-xl h-[700px] mx-auto md:max-w-none flex flex-col md:flex-row md:items-start md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
             {/* Tabs items (images) */}
             <div className="md:rtl md:w-5/12 lg:w-1/2 order-1 md:order-none">
               <div className="transition-all">
@@ -49,13 +52,38 @@ export default function FeaturesHome02() {
                           </p>
                         </div>
                       </div>
-                      <Image
+                      {/* <Image
                         className="rounded relative inline-flex flex-col"
                         src={FeaturesImage}
                         width={360}
                         height={300}
                         alt="Features home 2 02"
-                      />
+                      /> */}
+                      <div className="rounded relative inline-flex flex-col">
+                        <video
+                          ref={videoRef}
+                          width={360}
+                          height={300}
+                          loop
+                          controls
+                          autoPlay={true}
+                        >
+                          <source
+                            src="/videos/chatbot video.mp4"
+                            type="video/mp4"
+                          />
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                      {/* <ModalVideo01
+                        thumb={VideoThumb}
+                        thumbWidth={360}
+                        thumbHeight={300}
+                        thumbAlt="Modal video thumbnail"
+                        video="/videos/chatbot video.mp4"
+                        videoWidth={360}
+                        videoHeight={300}
+                      /> */}
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -67,17 +95,15 @@ export default function FeaturesHome02() {
                         </h3>
                         <p className="my-4">
                           The Concierge is ready to guide, advise & assist. It
-                          can redirect to product pages, take shoppers to
-                          checkout, and compare products. Oh! You can train the
-                          AI, too.
+                          can redirect to product pages.
                         </p>
                         <p className="text-sm text-slate-500">
                           Knows your catalog, products, and website
                         </p>{" "}
-                        <p className="text-sm text-slate-500">
+                        {/* <p className="text-sm text-slate-500">
                           Speaks your unique brand voice & personality
                         </p>{" "}
-                        <p className="text-sm text-slate-500">Multilingual</p>
+                        <p className="text-sm text-slate-500">Multilingual</p> */}
                       </div>
                       <Image
                         className="rounded relative inline-flex flex-col"
@@ -102,13 +128,13 @@ export default function FeaturesHome02() {
                         <p className="text-sm text-slate-500">
                           Convert abandoned cart shoppers
                         </p>{" "}
-                        <p className="text-sm text-slate-500">
+                        {/* <p className="text-sm text-slate-500">
                           Offer discounts in exchange for email and grow your
                           list
                         </p>{" "}
                         <p className="text-sm text-slate-500">
                           Increase AOV with AI product recommendations
-                        </p>
+                        </p> */}
                       </div>
                       <Image
                         className="rounded relative inline-flex flex-col"

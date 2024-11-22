@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import FeaturesImage from "@/public/images/features-home-01.jpg";
-import laptop from "../public/images/laptop.svg";
+import laptop from "@/public/images/laptop.png";
 
 export default function FeaturesHome() {
   const [tab, setTab] = useState<number>(1);
@@ -19,6 +19,7 @@ export default function FeaturesHome() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
+
           <div className="max-w-3xl mx-auto text-center pb-12">
             <h2 className="h2 font-roboto text-slate-700 mb-4">
               Test drive Lumniverse in a safe demo environment

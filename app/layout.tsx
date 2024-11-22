@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${playfair.variable} ${lato.variable} ${roboto.variable} font-inter antialiased bg-white text-slate-800 tracking-tight`}
+        className={`${inter.variable} ${playfair.variable} ${lato.variable} ${roboto.variable} font-inter antialiased bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 tracking-tight`}
       >
         {children}
       </body>

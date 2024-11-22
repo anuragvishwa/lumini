@@ -14,11 +14,20 @@ import Cta from "@/components/cta";
 import Gain from "./gain";
 import Tabs from "./tabs";
 import NumberTabs from "./numberTabs";
+import PageIllustration from "./page-illustration";
 
 export default function Home() {
   return (
     <>
+      {/* <div
+        className="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1"
+        aria-hidden="true"
+      >
+        <PageIllustration />
+      </div> */}
+
       <Hero />
+
       <Features02 />
 
       <NumberTabs />
