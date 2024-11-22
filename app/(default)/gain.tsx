@@ -1,6 +1,7 @@
 import Image from "next/image";
 import TargetImage from "@/public/images/features-home-01.jpg";
 import "../../components/button.css";
+import Link from "next/link";
 
 export default function Gain() {
   return (
@@ -35,7 +36,7 @@ export default function Gain() {
                   Getting feedback at scale wasn’t possible before. Now it is.
                 </p>
               </div>
-              <button className="button">
+              <Link className="button" href="https://app.lumniverse.com">
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -64,8 +65,11 @@ export default function Gain() {
                   </svg>
                 </span>
                 Start Free Trial
-              </button>
-              <button className="button ml-4">
+              </Link>
+              <Link
+                className="button ml-4"
+                href="https://app.lumniverse.com/multi-step"
+              >
                 <span className="button__icon-wrapper">
                   <svg
                     viewBox="0 0 14 15"
@@ -94,7 +98,7 @@ export default function Gain() {
                   </svg>
                 </span>
                 Talk to sales
-              </button>
+              </Link>
             </div>
           </div>
         </div>

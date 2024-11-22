@@ -52,29 +52,14 @@ export default function FeaturesHome02() {
                           </p>
                         </div>
                       </div>
-                      {/* <Image
+                      <Image
                         className="rounded relative inline-flex flex-col"
                         src={FeaturesImage}
                         width={360}
                         height={300}
                         alt="Features home 2 02"
-                      /> */}
-                      <div className="rounded relative inline-flex flex-col">
-                        <video
-                          ref={videoRef}
-                          width={360}
-                          height={300}
-                          loop
-                          controls
-                          autoPlay={true}
-                        >
-                          <source
-                            src="/videos/chatbot video.mp4"
-                            type="video/mp4"
-                          />
-                          Your browser does not support the video tag.
-                        </video>
-                      </div>
+                      />
+
                       {/* <ModalVideo01
                         thumb={VideoThumb}
                         thumbWidth={360}

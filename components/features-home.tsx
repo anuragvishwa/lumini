@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import FeaturesImage from "@/public/images/features-home-01.jpg";
 import laptop from "@/public/images/laptop.png";
+import Link from "next/link";
 
 export default function FeaturesHome() {
   const [tab, setTab] = useState<number>(1);
@@ -30,7 +31,7 @@ export default function FeaturesHome() {
             </p>
           </div>
           <div className="flex mb-4 justify-center">
-            <button className="button">
+            <Link className="button" href="https://app.lumniverse.com">
               <span className="button__icon-wrapper">
                 <svg
                   viewBox="0 0 14 15"
@@ -59,7 +60,7 @@ export default function FeaturesHome() {
                 </svg>
               </span>
               Start Free Trial
-            </button>
+            </Link>
           </div>
 
           <div className="flex justify-center">
