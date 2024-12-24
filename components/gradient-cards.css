@@ -1,0 +1,5 @@
+.animate-rgb-background {
+  background: linear-gradient(270deg, #ff0080, #ff8c00, #40e0d0, #ff0080);
+  background-size: 400% 400%;
+  animation: rgb-animation 6s ease infinite;
+}

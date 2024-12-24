@@ -15,6 +15,8 @@ import Gain from "./gain";
 import Tabs from "./tabs";
 import NumberTabs from "./numberTabs";
 import PageIllustration from "./page-illustration";
+import GradientCards from "@/components/gradient-cards";
+import WorkAIPlatform from "./work-ai";
 
 export default function Home() {
   return (
@@ -31,6 +33,8 @@ export default function Home() {
       <Features02 />
 
       <NumberTabs />
+      <GradientCards />
+      <WorkAIPlatform />
       <Tabs />
       <FeaturesBlocks />
       <Features />
