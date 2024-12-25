@@ -22,7 +22,7 @@ export default function NumberTabs() {
           </div>
 
           {/* Section content */}
-          <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-10 md:gap-y-10 items-start h-96">
+          <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-10 md:gap-y-10 items-start">
             {/* Article container with fixed height */}
             <article
               className="flex flex-col justify-between" // Set a fixed height for the article

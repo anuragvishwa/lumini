@@ -24,7 +24,7 @@ export default function FeaturesHome02() {
             </h2>
           </div>
           {/* Section content */}
-          <div className="max-w-xl h-[700px] mx-auto md:max-w-none flex flex-col md:flex-row md:items-start md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+          <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-start md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
             {/* Tabs items (images) */}
             <div className="md:rtl md:w-5/12 lg:w-1/2 order-1 md:order-none">
               <div className="transition-all">

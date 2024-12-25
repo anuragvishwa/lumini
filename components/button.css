@@ -55,3 +55,30 @@
   transition: transform 0.3s ease-in-out 0.1s;
   transform: translate(0);
 }
+
+/* Smaller screen adjustment */
+@media (max-width: 768px) {
+  .button {
+    padding: 0.5rem 1rem; /* Reduce padding */
+    font-size: 0.875rem; /* Reduce font size */
+    gap: 0.5rem; /* Adjust gap between elements */
+  }
+
+  .button__icon-wrapper {
+    width: 20px;
+    height: 20px; /* Reduce icon size */
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding: 0.375rem 0.75rem; /* Further reduce padding */
+    font-size: 0.75rem; /* Further reduce font size */
+    gap: 0.25rem; /* Further adjust gap */
+  }
+
+  .button__icon-wrapper {
+    width: 18px;
+    height: 18px; /* Further reduce icon size */
+  }
+}

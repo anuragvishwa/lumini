@@ -41,7 +41,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
             </ul>
           </nav>
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
         </div>
       </div>
     </header>
